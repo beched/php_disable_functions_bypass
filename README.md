@@ -2,7 +2,7 @@
 
 Original topic on RDot forum (russian): https://rdot.org/forum/showthread.php?t=3309
 
-This script exploits the possibility to write to procfs and rewrites the open@plt address with system@plt address. After that you can run shell commands with, for example, readfile().
+This script exploits the possibility to write to procfs and rewrites the open@plt address with system@plt address. After that you can run shell commands with, for example, readfile(). Addresses are obtained automatically after ELF parsing of libc and php binary.
 
 Conditions:
 * Linux kernel version >= 2.98,
