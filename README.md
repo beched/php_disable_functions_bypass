@@ -1,0 +1,1 @@
+# php_disable_functions_bypass
